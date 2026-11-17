@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ir">
+  <rect x="2" y="2" width="60" height="60" rx="7" fill="#23409a"/>
+  <text x="8" y="19" font-family="Menlo, Consolas, monospace" font-size="13" fill="#ffffff">77</text>
+  <text x="32" y="51" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="31" font-weight="700" fill="#ffffff">Ir</text>
+</svg>
