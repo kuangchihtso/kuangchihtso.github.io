@@ -86,7 +86,11 @@
   let dpr = 1, AW = 0, AH = 0, TW = 0, TH = 0;
   const events = [];
   const WINDOW = 2600;        // ms of trace on screen
-  const PHASE = 70, GAP = 18; // drawing timescale only, not physiological values
+  /* Drawing timescale only, not physiological values. Every pulse is cathodic-first and
+     symmetric (same amplitude and duration in both phases), so it is charge-balanced.
+     A whole pulse (2 * PHASE + GAP = 82 ms) must fit inside one INTERVAL: if pulses overlap,
+     the next one cuts the anodic phase short and the drawn pulse is no longer balanced. */
+  const PHASE = 35, GAP = 12;
   const INTERVAL = 115, HOLD = 1700;
 
   function drawArray(now) {
