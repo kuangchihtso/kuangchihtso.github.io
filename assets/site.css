@@ -288,6 +288,7 @@ html[lang^="zh"] .hero h1 { letter-spacing: 0.04em; }
   text-transform: uppercase;
   color: var(--ink-3);
 }
+.fig-legend .sym { text-transform: none; }
 .fig-legend .dot { display: inline-block; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--fig-core); box-shadow: 0 0 8px var(--amber); margin-right: 0.4rem; vertical-align: 0.05em; }
 
 /* film-style captions: a bold line, its translation, and a source tag */
